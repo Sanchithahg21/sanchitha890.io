@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Form</title>
+</head>
+<body>
+    <form action="message.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="enter your name"> <br><br>
+
+            <label for="dob">DOB</label>
+            <input type="date" id="dob"> <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email"> <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Educatinal Details</legend>
+            <label for="">Department</label> <br>
+            <input type="radio" name="dept" id="cs">
+            <label for="cs">CS</label>
+
+            <input type="radio" name="dept" id="ec">
+            <label for="ec">EC</label>
+
+            <input type="radio" name="dept" id="civil">
+            <label for="ec">CIVIl</label>
+
+            <input type="radio" name="dept" id="mech">
+            <label for="ec">MECH</label> <br><br>
+
+            <label for="">Year Of Graducation</label>
+            
+        <input list="yop" >
+        <datalist id="yop">
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2022</option>
+        </datalist><br><br>
+
+            <label for="">Skills</label><br>
+            <input type="checkbox"  id="html">
+            <label for="html">HTML</label> <br>
+            <input type="checkbox" n id="css">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" n id="js">
+            <label for="js">JAVASCRIPT</label>
+              
+        </fieldset><br>
+        <input type="submit" value="LOGIN">
+
+
+
+    </form>
+    
+</body>
+</html>
